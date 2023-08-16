@@ -3,11 +3,7 @@ import List from './List';
 import Form from './Form';
 
 const Contacts = () => {
-    const [contacts, setContacts] = useState([
-        { fullName: 'hüseyin topgül', phoneNumber: '05555555555' },
-        { fullName: 'esra topgül', phoneNumber: '444444444' },
-        { fullName: 'muhammed topgül', phoneNumber: '3333333333' }
-    ]);
+    const [contacts, setContacts] = useState([]);
 
 
 
